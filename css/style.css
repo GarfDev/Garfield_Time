@@ -1,0 +1,124 @@
+
+.navbar{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 194, 102) !important;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.new{
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 1rem;
+    border: 0.3px solid lightgrey;
+}
+
+.main-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.catnew{
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3px solid lightgrey;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#article-button{
+    outline: none;
+    background-color: rgb(255, 112, 16); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+#article-button:hover{
+    outline: none;
+    background-color: rgb(204, 89, 13); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+#article-title{
+    margin: 1rem;
+}
+
+#article-publishedAt{
+    margin: 1rem;
+}
+
+#loadMoreContentButton{
+    outline: none;
+    border: none;
+    padding: 20px 140px 20px 140px;
+    background-color: rgba(155, 146, 145, 0.397); /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+#loadMoreContentButton:hover{
+    outline: none;
+    border: none;
+    padding: 20px 140px 20px 140px;
+    background-color: rgba(109, 76, 73, 0.541); /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+#newsCount{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3px solid lightgrey;
+}
+
+#newsCount2{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-center{
+    text-align: center;
+}
